@@ -17,3 +17,5 @@ git commit -m 'Remove all the cats'
 git checkout master	//移动到master上
 git merge clean_up	//合并clean_up这个branch到当前（master）所在上
 git branch -d clean_up	//删掉clean_up这个branch
+
+新增加的一行
