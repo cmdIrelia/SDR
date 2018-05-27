@@ -17,9 +17,11 @@ unsigned char LED[4];
 int SCLK = 2;
 int RCLK = 3;
 int DIO = 4;
-
+const int led=13;
 void setup(void) {
-  //Serial.begin(115200);
+  Serial.begin(115200);
+  pinMode(led,OUTPUT);
+  digitalWrite(led,LOW);
   pinMode(SCLK,OUTPUT);
   pinMode(RCLK,OUTPUT);
   pinMode(DIO,OUTPUT);
@@ -53,6 +55,7 @@ void LED4_Display (void)
     //显示第3位
     led_table = LED_0F + LED[2];
     i = *led_table;
+    i&= (~0x80); //小数点
     LED_OUT(i);			
     LED_OUT(0x04);	
     digitalWrite(RCLK,LOW);
@@ -186,14 +189,55 @@ void loop(void) {
   celsius = (float)raw / 16.0;
   fahrenheit = celsius * 1.8 + 32.0;
   //Serial.print("  Temperature = ");
-  //Serial.print(celsius);
+  Serial.println(celsius);
   //Serial.print(" Celsius, ");
   //Serial.print(fahrenheit);
   //Serial.println(" Fahrenheit");
   
   LED[3]=int(celsius)%100/10;
-  LED[2]=int(celsius)%10 | 0x80;
+  LED[2]=int(celsius)%10;
   LED[1]=int(celsius*10)%10;
   LED[0]=int(celsius*100)%10;
   LED4_Display();
+}
+
+/*
+  SerialEvent occurs whenever a new data comes in the
+ hardware serial RX.  This routine is run between each
+ time loop() runs, so using delay inside loop can delay
+ response.  Multiple bytes of data may be available.
+ */
+void serialEvent() {
+  static int state=0;
+  while (Serial.available()) {
+    // get the new byte:
+    char inChar = (char)Serial.read();
+    switch(state)
+    {
+      case 0:{
+        if(inChar=='K'){
+          state=1;
+        }
+        else if(inChar=='G'){
+          state=2;
+        }
+        break;
+      }
+      case 1:{
+        if(inChar=='D'){
+          digitalWrite(led,HIGH);
+        }
+        state=0;
+        break;
+      }
+      case 2:{
+        if(inChar=='B'){
+          digitalWrite(led,LOW);
+        }
+        state=0;
+        break;
+      }
+      default:state=0;
+    }
+  }
 }
