@@ -1,0 +1,9 @@
+(Device File: OSC_2pin)
+
+PACKAGE OSC_2pin
+CLASS IC
+PINCOUNT 2
+PINORDER OSC_2pin '1' '2' 
+FUNCTION g1 OSC_2pin '1' '2' 
+
+END
