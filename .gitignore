@@ -1,2 +1,7 @@
 ﻿packageSource/*
 参考资料/*
+*.log
+schematic/signoise.run/*
+schematic/allegro/*
+board/*
+!board/SDR_2832.brd
