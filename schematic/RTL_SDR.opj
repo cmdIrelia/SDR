@@ -12,7 +12,6 @@
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
-    (Board_sim_option "VHDL_flow")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
     (ANNOTATE_Action "0")
@@ -77,7 +76,8 @@
     (DRC_Type_Mismatch "TRUE")
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
-    (DRC_Check_Name_Prop_For_HierBlocks "FALSE"))
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -149,25 +149,27 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\rtl_sdr.dsn")
-      (Path "Design Resources" ".\rtl_sdr.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\rtl_sdr.dsn" "Design Cache")
+      (Path "Design Resources" "e:\cadence\sdr\schematic\rtl_sdr.dsn")
+      (Path "Design Resources" "e:\cadence\sdr\schematic\rtl_sdr.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "e:\cadence\sdr\schematic\rtl_sdr.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\sdrlib.olb")
+      (Path "Design Resources" "Library" "e:\cadence\sdr\schematic\sdrlib.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\rtl_sdr.dsn"))
+      (Select "Design Resources" "e:\cadence\sdr\schematic\rtl_sdr.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 866"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 927"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 512")
-        (Scroll "-82 72")
-        (Zoom "88")
+        (Scroll "1003 439")
+        (Zoom "176")
         (Occurrence "/"))
       (Path "E:\CADENCE\SDR\SCHEMATIC\RTL_SDR.DSN")
       (Schematic "SCHEMATIC1")
