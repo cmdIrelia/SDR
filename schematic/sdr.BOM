@@ -1,0 +1,46 @@
+"  Revised: Saturday, February 22, 2020"								
+          Revision: 								
+								
+								
+								
+								
+								
+								
+								
+"Bill Of Materials       February 22,2020      13:01:01"	Page1							
+								
+Item	Quantity	Reference	Part	PCB Footprint		备注		
+______________________________________________								
+								
+1	2	"C1,C29"	330pF	R0805				4.77
+2	1	C2	220pF/NC	R0805				4.77
+3	1	C3	27pF/10nF	R0805		使用10nF		5.1
+4	1	C4	NC/100nF	R0805				
+5	1	C5	1uF	R0805				5.1
+6	9	"C6,C10,C11,C14,C15,C16,"	100nF	R0805				5.1
+		"C26,C27,C28"						
+7	2	"C7,C8"	20pF	R0805				5.1
+8	1	C9	10nF	R0805				--
+9	2	"C12,C22"	330nF	R0805				7.44
+10	2	"C13,C23"	6.8nF	R0805				
+11	1	C17	220uF	capprd300w51d500h1295p		直插电解电容		
+12	1	C18	6.8nF/NC	R0805				
+13	2	"C19,C30"	10uF	capprd300w51d500h1295p		直插电解电容		
+14	1	C20	0.1uF	capprd300w51d500h1295p		NC		
+15	1	D1	BAV99/SOT	sot95p237x112-3n				
+16	2	"J1,J2"	HEADER 4	hdrv4w64p254_1x4_1016x254x838p				
+17	1	L1	8.2nH	R0805				
+18	1	L2	100nH/NC	R0805				
+19	1	L3	NC/180nH	R0805				
+20	2	"L4,L5"	150nH	R0805				
+21	1	L6	4.7uH	R0805				
+22	2	"R2,R8"	1.8K	R0805				
+23	1	R3	10K	R0805				
+24	2	"R4,R5"	220	R0805				
+25	1	R7	NC/100	R0805				
+26	2	"R9,R10"	4.7K	R0805				
+27	1	U1	RTL2832U	rtl2832u_qfn48				
+28	1	U2	R820t	r820t				
+29	1	U3	24C02/SO8	at24c02_sop8				
+30	1	U4	AMS1117	AMS1117_SOT223				
+31	1	Y1	28.8MHz	osc_2pin				

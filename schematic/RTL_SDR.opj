@@ -77,7 +77,19 @@
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "E:\Cadence\SDR\schematic\sdr.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCB Footprint")
+    (BOM_Include_File "E:\CADENCE\SDR\SCHEMATIC\RTL_SDR.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -89,6 +101,8 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\rtl_sdr.drc"
+      (Type "Report"))
+    (File ".\sdr.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
@@ -156,7 +170,8 @@
          "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "e:\cadence\sdr\schematic\sdrlib.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" "e:\cadence\sdr\schematic\rtl_sdr.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -167,7 +182,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 512")
-        (Scroll "0 0")
+        (Scroll "374 307")
         (Zoom "176")
         (Occurrence "/"))
       (Path "E:\CADENCE\SDR\SCHEMATIC\RTL_SDR.DSN")
