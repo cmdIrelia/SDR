@@ -1,0 +1,91 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : SDR_2832.brd                                  )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sat Feb 22 00:47:11 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH TRUE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'E:/Cadence/SDR/schematic/allegro';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'E:/Cadence/SDR/board/SDR_2832.brd';
+NEW_BOARD_NAME 'E:/Cadence/SDR/board/SDR_2832.brd';
+
+CmdLine: netrev -$ -i E:/Cadence/SDR/schematic/allegro -x -y 1 -z E:/Cadence/SDR/board/#Taaaadn07880.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read E:/Cadence/SDR/schematic/allegro/pstchip.dat 
+   Finished reading E:/Cadence/SDR/schematic/allegro/pstchip.dat (00:00:00.06)
+Starting to read E:/Cadence/SDR/schematic/allegro/pstxprt.dat 
+   Finished reading E:/Cadence/SDR/schematic/allegro/pstxprt.dat (00:00:00.00)
+Starting to read E:/Cadence/SDR/schematic/allegro/pstxnet.dat 
+   Finished reading E:/Cadence/SDR/schematic/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/Cadence/SDR/packageLibrary 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/Cadence/SDR/packageLibrary 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Feb 22 0:47:11 2020
+   DESIGN NAME : 'RTL_SDR'
+   PACKAGING ON Sep 10 2012 04:46:09
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:42
+elapsed time  0:00:01
+

@@ -1,0 +1,21 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  E:/Cadence/SDR/board/SDR_2832.brd*
+G04 Film Name:    PASTEMASK_BOTTOM*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 16.6-P004*
+G04 Origin Date:  Sat Feb 22 23:07:56 2020*
+G04 *
+G04 Layer:  VIA CLASS/PASTEMASK_BOTTOM*
+G04 Layer:  PIN/PASTEMASK_BOTTOM*
+G04 Layer:  PACKAGE GEOMETRY/PASTEMASK_BOTTOM*
+G04 *
+G04 Offset:    (0.00 0.00)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     60.00*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX25Y25*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+M02*
