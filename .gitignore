@@ -4,4 +4,4 @@
 schematic/signoise.run/*
 schematic/allegro/*
 board/*
-!board/SDR_2832.brd
+!board/*.brd
