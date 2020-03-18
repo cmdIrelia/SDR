@@ -163,15 +163,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "e:\cadence\sdr\schematic\rtl_sdr.dsn")
-      (Path "Design Resources" "e:\cadence\sdr\schematic\rtl_sdr.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "e:\cadence\sdr\schematic\rtl_sdr.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\rtl_sdr.dsn")
+      (Path "Design Resources" ".\rtl_sdr.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\rtl_sdr.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "e:\cadence\sdr\schematic\sdrlib.olb")
+      (Path "Design Resources" "Library" ".\sdrlib.olb")
       (Path "Outputs")
-      (Select "Design Resources" "e:\cadence\sdr\schematic\rtl_sdr.dsn"))
+      (Select "Design Resources" ".\rtl_sdr.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -182,7 +180,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 512")
-        (Scroll "374 307")
+        (Scroll "230 276")
         (Zoom "176")
         (Occurrence "/"))
       (Path "E:\CADENCE\SDR\SCHEMATIC\RTL_SDR.DSN")
