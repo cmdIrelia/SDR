@@ -1,0 +1,9 @@
+(Device File: TC1-1T)
+
+PACKAGE TC1-1T
+CLASS IC
+PINCOUNT 6
+PINORDER TC1-1T '1' '2' '3' '4' '5' '6' 
+FUNCTION g1 TC1-1T '1' '2' '3' '4' '5' '6' 
+
+END

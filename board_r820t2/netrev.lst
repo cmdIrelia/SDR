@@ -1,0 +1,91 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : r820t2.brd                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Mon Mar 23 00:49:04 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'E:/Cadence/SDR/schematic/ALLEGRO_R820T2';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'E:/Cadence/SDR/board_r820t2/r820t2.brd';
+NEW_BOARD_NAME 'E:/Cadence/SDR/board_r820t2/r820t2.brd';
+
+CmdLine: netrev -$ -i E:/Cadence/SDR/schematic/ALLEGRO_R820T2 -y 1 E:/Cadence/SDR/board_r820t2/#Taaaaak06660.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read E:/Cadence/SDR/schematic/ALLEGRO_R820T2/pstchip.dat 
+   Finished reading E:/Cadence/SDR/schematic/ALLEGRO_R820T2/pstchip.dat (00:00:00.05)
+Starting to read E:/Cadence/SDR/schematic/ALLEGRO_R820T2/pstxprt.dat 
+   Finished reading E:/Cadence/SDR/schematic/ALLEGRO_R820T2/pstxprt.dat (00:00:00.00)
+Starting to read E:/Cadence/SDR/schematic/ALLEGRO_R820T2/pstxnet.dat 
+   Finished reading E:/Cadence/SDR/schematic/ALLEGRO_R820T2/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/Cadence/SDR/packageLibrary 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/Cadence/SDR/packageLibrary 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Mar 23 0:49:04 2020
+   DESIGN NAME : 'R820T2'
+   PACKAGING ON Sep 10 2012 04:46:09
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:50
+elapsed time  0:00:01
+

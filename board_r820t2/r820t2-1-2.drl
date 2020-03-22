@@ -1,0 +1,11 @@
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : r820t2-1-2.drl for  ... layers TOP and BOTTOM
+;T01 Holesize 1. = 13.000000 Tolerance = +0.000000/-0.000000 PLATED MILS Quantity = 2
+%
+G90
+T01
+X0006100Y0059200
+X-0010300Y0059200
+M30

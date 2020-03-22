@@ -6,8 +6,6 @@
       (File ".\sdrlib.olb"
         (Type "Schematic Library")))
     (NoModify)
-    (File ".\rtl_sdr.dsn"
-      (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
@@ -30,7 +28,7 @@
     (width_End "80")
     (Netlist_TAB "0")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "E:\CADENCE\SDR\SCHEMATIC\ALLEGRO")
+    ("Allegro Netlist Directory" "E:\CADENCE\SDR\SCHEMATIC\ALLEGRO_R820T2")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -89,7 +87,9 @@
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "FALSE")
-    (BOM_View_Output "FALSE"))
+    (BOM_View_Output "FALSE")
+    (File ".\r820t2.dsn"
+      (Type "Schematic Design")))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -103,15 +103,48 @@
     (File ".\rtl_sdr.drc"
       (Type "Report"))
     (File ".\sdr.bom"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\allegro_r820t2\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro_r820t2\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro_r820t2\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (BNC
-      (FullPartName "BNC.Normal")
+    (OSC28.8Mhz
+      (FullPartName "OSC28.8Mhz.Normal")
+      (LibraryName "E:\CADENCE\SDR\SCHEMATIC\SDRLIB.OLB")
+      (DeviceIndex "0"))
+    (5PB1102PGGI
+      (FullPartName "5PB1102PGGI.Normal")
+      (LibraryName "E:\CADENCE\SDR\SCHEMATIC\SDRLIB.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     ("HEADER 4"
       (FullPartName "HEADER 4.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (SMA
+      (FullPartName "SMA.Normal")
+      (LibraryName "E:\CADENCE\SDR\SCHEMATIC\SDRLIB.OLB")
+      (DeviceIndex "0"))
+    ("RCA JACK"
+      (FullPartName "RCA JACK.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TC-1T
+      (FullPartName "TC-1T.Normal")
+      (LibraryName "E:\CADENCE\SDR\SCHEMATIC\SDRLIB.OLB")
+      (DeviceIndex "0"))
+    (BNC
+      (FullPartName "BNC.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     (AMS1117
@@ -163,13 +196,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\rtl_sdr.dsn")
-      (Path "Design Resources" ".\rtl_sdr.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\rtl_sdr.dsn" "Design Cache")
+      (Path "Design Resources" "e:\cadence\sdr\schematic\r820t2.dsn")
+      (Path "Design Resources" "e:\cadence\sdr\schematic\r820t2.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "e:\cadence\sdr\schematic\r820t2.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\sdrlib.olb")
+      (Path "Design Resources" "Library" "e:\cadence\sdr\schematic\sdrlib.olb")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" "e:\cadence\sdr\schematic\r820t2.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -179,11 +214,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 512")
-        (Scroll "-207 -5")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1440 78 683")
+        (Scroll "-207 137")
         (Zoom "73")
         (Occurrence "/"))
-      (Path "E:\CADENCE\SDR\SCHEMATIC\RTL_SDR.DSN")
+      (Path "E:\CADENCE\SDR\SCHEMATIC\R820T2.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "shincky")
