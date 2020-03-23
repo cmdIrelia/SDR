@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 22:20:18 }
+{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 22:53:56 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='R820T2';
@@ -371,9 +371,9 @@ PART_NAME
  J3 'SMA_SMA_SMA':;
 
 SECTION_NUMBER 1
- '@R820T2.SCHEMATIC1(SCH_1):INS32183@SDRLIB.SMA.NORMAL(CHIPS)':
- C_PATH='@r820t2.schematic1(sch_1):ins32183@sdrlib.\sma.normal\(chips)',
- P_PATH='@r820t2.schematic1(sch_1):page1_ins32183@sdrlib.\sma.normal\(chips)',
+ '@R820T2.SCHEMATIC1(SCH_1):INS44867@SDRLIB.SMA.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins44867@sdrlib.\sma.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins44867@sdrlib.\sma.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -498,26 +498,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R11 'R_R0805_DNP':;
-
-SECTION_NUMBER 1
- '@R820T2.SCHEMATIC1(SCH_1):INS31412@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@r820t2.schematic1(sch_1):ins31412@discrete.\r.normal\(chips)',
- P_PATH='@r820t2.schematic1(sch_1):page1_ins31412@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R12 'R_R0805_DNP':;
-
-SECTION_NUMBER 1
- '@R820T2.SCHEMATIC1(SCH_1):INS31466@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@r820t2.schematic1(sch_1):ins31466@discrete.\r.normal\(chips)',
- P_PATH='@r820t2.schematic1(sch_1):page1_ins31466@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  R13 'R_R0805_1.8K':;
 
 SECTION_NUMBER 1
@@ -528,32 +508,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R14 'R_R0805_DNP':;
-
-SECTION_NUMBER 1
- '@R820T2.SCHEMATIC1(SCH_1):INS37629@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@r820t2.schematic1(sch_1):ins37629@discrete.\r.normal\(chips)',
- P_PATH='@r820t2.schematic1(sch_1):page1_ins37629@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  R15 'R_R0805_220':;
 
 SECTION_NUMBER 1
  '@R820T2.SCHEMATIC1(SCH_1):INS37649@DISCRETE.R.NORMAL(CHIPS)':
  C_PATH='@r820t2.schematic1(sch_1):ins37649@discrete.\r.normal\(chips)',
  P_PATH='@r820t2.schematic1(sch_1):page1_ins37649@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R16 'R_R0805_DNP':;
-
-SECTION_NUMBER 1
- '@R820T2.SCHEMATIC1(SCH_1):INS37665@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@r820t2.schematic1(sch_1):ins37665@discrete.\r.normal\(chips)',
- P_PATH='@r820t2.schematic1(sch_1):page1_ins37665@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -584,6 +544,26 @@ SECTION_NUMBER 1
  '@R820T2.SCHEMATIC1(SCH_1):INS38431@DISCRETE.R.NORMAL(CHIPS)':
  C_PATH='@r820t2.schematic1(sch_1):ins38431@discrete.\r.normal\(chips)',
  P_PATH='@r820t2.schematic1(sch_1):page1_ins38431@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'R_R0805_1.8K':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS46806@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins46806@discrete.\r.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins46806@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'R_R0805_1.8K':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS47587@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins47587@discrete.\r.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins47587@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

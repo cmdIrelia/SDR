@@ -1,0 +1,402 @@
+\t (00:00:34) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:34)     Journal start - Mon Mar 23 00:40:10 2020
+\t (00:00:34)         Host=DESKTOP-6L51PBI User=shincky Pid=6660 CPUs=12
+\t (00:00:34) 
+\t (00:00:34) Starting new design...
+\i (00:00:34) trapsize 533
+\i (00:00:34) trapsize 522
+\i (00:00:34) trapsize 533
+\i (00:00:35) trapsize 1065
+\i (00:00:35) trapsize 1065
+\i (00:00:35) layout wizard 
+\i (00:00:35) generaledit 
+\i (00:00:37) setwindow form.brd_wizard
+\i (00:00:37) FORM brd_wizard wiz_next  
+   (00:00:37) Loading cmds.cxt 
+   (00:00:37) Loading axlcore.cxt 
+\i (00:00:37) FORM brd_wizard wiz_next  
+\i (00:00:41) FORM brd_wizard wiz_next  
+\i (00:00:42) FORM brd_wizard wiz_next  
+\i (00:00:45) FORM brd_wizard board_units Millimeter 
+\i (00:00:48) FORM brd_wizard board_size A4 
+\i (00:00:55) FORM brd_wizard wiz_next  
+\i (00:01:03) FORM brd_wizard grid_spacing 0.0254 
+\i (00:01:03) FORM brd_wizard wiz_next  
+\i (00:01:05) FORM brd_wizard wiz_next  
+\i (00:01:16) FORM brd_wizard min_line_width 0.2000 
+\i (00:01:26) FORM brd_wizard wiz_next  
+\i (00:01:27) fillin confirm
+\i (00:01:28) FORM brd_wizard def_via_browse  
+\i (00:01:33) fillin "Via"
+\i (00:01:34) FORM brd_wizard wiz_next  
+\i (00:01:36) FORM brd_wizard rectangular_board YES 
+\i (00:01:37) FORM brd_wizard wiz_next  
+\i (00:01:41) FORM brd_wizard rb_outline_width 49.0000 
+\i (00:01:44) FORM brd_wizard rb_outline_height 49.0000 
+\i (00:01:54) FORM brd_wizard rb_package_keepin_distance 1.0000 
+\i (00:01:56) FORM brd_wizard rb_route_keepin_distance 1.0000 
+\i (00:01:56) FORM brd_wizard wiz_next  
+\i (00:01:58) FORM brd_wizard wiz_finish  
+\i (00:01:58) setwindow pcb
+\i (00:01:58) trapsize 1065
+\i (00:01:58) trapsize 1065
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) generaledit 
+\i (00:02:00) zoom out 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom out -133.5508 -97.7384
+\i (00:02:00) trapsize 2130
+\i (00:02:00) zoom out 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom out -118.6442 -90.5619
+\i (00:02:00) trapsize 4259
+\i (00:02:00) zoom out 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom out -88.8736 -76.2090
+\i (00:02:00) trapsize 8518
+\i (00:02:00) zoom out 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom out -29.2472 -47.5883
+\i (00:02:00) trapsize 13076
+\i (00:02:00) zoom in 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom in -10.6793 8.2379
+\i (00:02:00) trapsize 6538
+\i (00:02:01) zoom in 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom in -7.0180 8.7610
+\i (00:02:01) trapsize 3269
+\i (00:02:01) zoom out 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom out -5.3835 8.2379
+\i (00:02:01) trapsize 6538
+\i (00:02:03) save 
+\i (00:02:03) generaledit 
+\i (00:02:07) netin 
+\i (00:02:10) setwindow form.niparams
+\i (00:02:10) FORM niparams browse  
+\i (00:02:16) fillin "E:/Cadence/SDR/schematic/ALLEGRO_R820T2"
+\i (00:02:17) FORM niparams capture_netlist YES 
+\i (00:02:19) FORM niparams import  
+\t (00:02:19) Starting Cadence Logic Import...
+\e (00:02:19) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
+\i (00:03:08) FORM niparams browse  
+\i (00:03:14) fillin "E:/Cadence/SDR/schematic/ALLEGRO_R820T2"
+\i (00:03:17) FORM niparams import  
+\t (00:03:17) Starting Cadence Logic Import...
+\w (00:03:18) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:03:18) Opening existing design...
+\i (00:03:18) setwindow pcb
+\i (00:03:18) trapsize 6538
+\i (00:03:19) generaledit 
+\i (00:05:48) setwindow text
+\i (00:05:48) close 
+\i (00:05:50) setwindow pcb
+\i (00:05:50) netin 
+\i (00:05:51) setwindow form.niparams
+\i (00:05:51) FORM niparams import  
+\t (00:05:51) Starting Cadence Logic Import...
+\w (00:05:52) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:05:52) Opening existing design...
+\i (00:05:52) setwindow pcb
+\i (00:05:52) trapsize 6538
+\i (00:05:53) generaledit 
+\i (00:06:39) setwindow text
+\i (00:06:39) close 
+\i (00:06:45) setwindow pcb
+\i (00:06:45) xhilite 
+\i (00:06:45) xrefdes U5 
+\t (00:06:45) Can not select unplaced component U5.
+\t (00:06:45) Can not select unplaced component U5.
+\i (00:06:45) xname_flush 
+\i (00:06:45) done 
+\i (00:06:45) generaledit 
+\i (00:07:12) xdehilite 
+\i (00:07:12) xrefdes U5 
+\t (00:07:12) Can not select unplaced component U5.
+\t (00:07:12) Can not select unplaced component U5.
+\i (00:07:12) xname_flush 
+\i (00:07:12) done 
+\i (00:07:12) xhilite 
+\i (00:07:12) xrefdes U7 
+\t (00:07:12) Can not select unplaced component U7.
+\t (00:07:12) Can not select unplaced component U7.
+\i (00:07:12) xname_flush 
+\i (00:07:12) done 
+\i (00:07:12) generaledit 
+\i (00:07:29) netin 
+\i (00:07:30) setwindow form.niparams
+\i (00:07:30) FORM niparams import  
+\t (00:07:30) Starting Cadence Logic Import...
+\w (00:07:31) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:07:31) Opening existing design...
+\i (00:07:31) setwindow pcb
+\i (00:07:31) trapsize 6538
+\i (00:07:32) generaledit 
+\i (00:07:35) setwindow text
+\i (00:07:35) close 
+\i (00:09:22) setwindow pcb
+\i (00:09:22) new 
+\e (00:09:23) Do you want to save the changes you made to E:/Cadence/SDR/board_r820t2/r820t2.brd?
+\i (00:09:24) fillin menu_cancel 
+\i (00:09:24) generaledit 
+\i (00:09:27) netin 
+\i (00:09:28) setwindow form.niparams
+\i (00:09:28) FORM niparams import  
+\t (00:09:28) Starting Cadence Logic Import...
+\t (00:09:29) Opening existing design...
+\i (00:09:29) setwindow pcb
+\i (00:09:29) trapsize 6538
+\i (00:09:30) generaledit 
+\i (00:09:31) pick grid -33.6276 37.0051
+\t (00:09:31) last pick:  -33.6296  37.0078
+\i (00:09:35) place manual 
+\i (00:09:37) setwindow form.plc_manual
+\i (00:09:37) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\t (00:09:37) Placing C1 / CAPACITOR NON-POL_R0805_330PF / R0805 on Top.
+\i (00:09:37) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:09:38) setwindow pcb
+\i (00:09:38) pick grid -6.0373 8.1072
+\t (00:09:38) last pick:  -6.0452  8.1026
+\i (00:09:39) setwindow form.plc_manual
+\i (00:09:39) FORM plc_manual tree 'MULTISEL YES' C3 'Components by refdes' 
+\t (00:09:39) Placing C3 / CAPACITOR NON-POL_R0805_27PF/10 / R0805 on Top.
+\i (00:09:39) FORM plc_manual tree  C3 'Components by refdes' 
+\i (00:09:40) setwindow pcb
+\i (00:09:40) pick grid -10.6139 1.3077
+\t (00:09:40) last pick:  -10.6172  1.2954
+\i (00:09:41) setwindow form.plc_manual
+\i (00:09:41) FORM plc_manual tree 'MULTISEL YES' C5 'Components by refdes' 
+\t (00:09:41) Placing C5 / CAPACITOR NON-POL_R0805_1UF / R0805 on Top.
+\i (00:09:41) FORM plc_manual tree  C5 'Components by refdes' 
+\i (00:09:42) setwindow pcb
+\i (00:09:42) pick grid -9.6986 -7.0609
+\t (00:09:42) last pick:  -9.7028  -7.0612
+\i (00:09:43) setwindow form.plc_manual
+\i (00:09:43) FORM plc_manual tree 'MULTISEL YES' C6 'Components by refdes' 
+\t (00:09:43) Placing C6 / CAPACITOR NON-POL_R0805_0.1UF / R0805 on Top.
+\i (00:09:43) FORM plc_manual tree  C6 'Components by refdes' 
+\i (00:09:44) setwindow pcb
+\i (00:09:44) pick grid 3.1159 -12.9451
+\t (00:09:44) last pick:  3.1242  -12.9540
+\i (00:09:44) prepopup 48.3587 -9.1530
+\i (00:09:45) done 
+\i (00:09:45) generaledit 
+\i (00:09:46) pick grid 56.9889 6.5381
+\t (00:09:46) last pick:  56.9976  6.5278
+\i (00:09:54) nctape_full 
+\w (00:09:54) WARNING(SPMHMF-272): NC Parameters file 'nc_param.txt' not found ... loading defaults.
+\i (00:09:56) setwindow form.nc_drill
+\i (00:09:56) FORM nc_drill parameters  
+\i (00:09:58) setwindow form.nc_parameters
+\i (00:09:58) FORM nc_parameters done  
+\i (00:10:00) setwindow form.nc_drill
+\i (00:10:00) FORM nc_drill parameters  
+\i (00:10:02) setwindow form.nc_parameters
+\i (00:10:02) FORM nc_parameters done  
+\i (00:10:06) setwindow form.nc_drill
+\i (00:10:06) FORM nc_drill execute  
+\t (00:10:06) Starting NC Drill...
+\e (00:10:07) ERROR(SPMHGE-268): NC Drill had errors, use Viewlog to review the log file.
+\e (00:10:08) A problem occurred - please check the logfile (using Viewlog).
+\i (00:10:19) setwindow text
+\i (00:10:19) close 
+\i (00:10:21) setwindow form.nc_drill
+\i (00:10:21) FORM nc_drill cancel  
+\i (00:10:21) setwindow pcb
+\i (00:10:21) generaledit 
+\i (00:10:22) pick grid 16.0611 14.1222
+\t (00:10:22) last pick:  16.0528  14.1224
+\i (00:10:22) add connect 
+\t (00:10:23) Pick first element.
+\i (00:10:23) pick grid 16.9764 13.7299
+\t (00:10:23) last pick:  16.9672  13.7414
+\t (00:10:23) last pick:  16.9672  13.7414
+\i (00:10:24) pick grid 1.5468 15.0375
+\t (00:10:24) last pick:  1.5494  15.0368
+\t (00:10:24) No DRC errors detected.
+\i (00:10:24) pick grid dbl 1.5468 15.0375
+\t (00:10:24) last pick:  1.5494  15.0368
+\t (00:10:24) VIA used for drill.
+\t (00:10:24) No DRC errors detected.
+\i (00:10:25) pick grid -3.1606 15.5605
+\t (00:10:25) last pick:  -3.1496  15.5702
+\t (00:10:25) No DRC errors detected.
+\t (00:10:25) last pick:  -2.6162  15.0368
+\i (00:10:25) pick grid dbl -3.1606 15.5605
+\t (00:10:25) last pick:  -3.1496  15.5702
+\t (00:10:25) VIA used for drill.
+\t (00:10:25) No DRC errors detected.
+\i (00:10:26) prepopup -4.0759 18.8295
+\i (00:10:26) done 
+\i (00:10:26) generaledit 
+\i (00:10:29) artwork 
+\i (00:10:31) setwindow form.film_control
+\i (00:10:31) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:10:31) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:10:31) FORM film_control filmtree  TOP 
+\i (00:10:38) FORM film_control create  
+\t (00:10:38) Checking db records
+\t (00:10:38)     checking for orphans...
+\t (00:10:38)     Checked 100 percent
+\w (00:10:38) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:10:38) Done dbdoctor.
+\t (00:10:38) Starting Create artwork films...
+\w (00:10:38) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:10:39) Artwork generated with warnings.
+\i (00:10:48) setwindow text
+\i (00:10:48) close 
+\i (00:10:55) setwindow pcb
+\i (00:10:55) trapsize 9465
+\i (00:10:56) trapsize 6538
+\i (00:11:02) ncdrill param 
+\i (00:11:09) setwindow form.nc_parameters
+\i (00:11:09) FORM nc_parameters browse  
+\i (00:11:12) fillin "menu_cancel"
+\i (00:11:13) FORM nc_parameters done  
+\i (00:11:20) setwindow pcb
+\i (00:11:20) nctape_full 
+\i (00:11:25) setwindow form.nc_drill
+\i (00:11:25) FORM nc_drill auto_tool_select YES 
+\i (00:11:30) FORM nc_drill execute  
+\t (00:11:30) Starting NC Drill...
+\i (00:11:35) setwindow pcb
+\i (00:11:35) ncdrill legend 
+\i (00:11:39) setwindow form.nc_drilllegend
+\i (00:11:39) FORM nc_drilllegend done  
+   (00:11:39) Loading signal.cxt 
+   (00:11:39) Loading mfg.cxt 
+\i (00:11:40) setwindow pcb
+\i (00:11:40) pick grid 39.5978 8.7610
+\t (00:11:40) last pick:  39.5986  8.7630
+\w (00:11:40) WARNING(SPMHSK-25): Design extents not sufficient. Please select origin again.
+\i (00:11:40) pick grid 33.7136 11.8993
+\t (00:11:40) last pick:  33.7058  11.8872
+\w (00:11:40) WARNING(SPMHSK-25): Design extents not sufficient. Please select origin again.
+\i (00:11:41) pick grid -23.9514 -23.7981
+\t (00:11:41) last pick:  -23.9522  -23.7998
+\t (00:11:42) NC Drill Legend generation successful
+\i (00:11:42) done 
+\i (00:11:42) generaledit 
+\i (00:11:42) prepopup 47.0511 -2.7458
+\i (00:11:43) pick grid 47.8357 6.7996
+\t (00:11:43) last pick:  47.8282  6.8072
+\i (00:11:45) artwork 
+\i (00:11:47) setwindow form.film_control
+\i (00:11:47) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:11:47) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:11:47) FORM film_control filmtree  TOP 
+\i (00:11:48) FORM film_control create  
+\t (00:11:48) Checking db records
+\t (00:11:48)     checking for orphans...
+\t (00:11:48)     Checked 100 percent
+\w (00:11:48) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:11:48) Done dbdoctor.
+\t (00:11:48) Starting Create artwork films...
+\w (00:11:49) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:11:50) Artwork generated with warnings.
+\i (00:11:54) setwindow text
+\i (00:11:54) close 
+\i (00:12:00) setwindow pcb
+\i (00:12:00) status 
+\i (00:12:03) setwindow form.status
+\i (00:12:03) FORM status drc_update  
+\w (00:12:03) DRC Update can not be run while command active.
+\i (00:12:04) FORM status drc_update  
+\w (00:12:04) DRC Update can not be run while command active.
+\i (00:12:04) FORM status drc_update  
+\w (00:12:04) DRC Update can not be run while command active.
+\i (00:12:09) FORM status drc_update  
+\w (00:12:09) DRC Update can not be run while command active.
+\i (00:12:09) FORM status drc_update  
+\w (00:12:09) DRC Update can not be run while command active.
+\i (00:12:10) FORM status shorts_drc_color 1 
+\i (00:12:10) setwindow pcb
+\i (00:12:10) reports drc_shorts 
+\i (00:12:10) reports "drc_shorts"
+\i (00:12:10) generaledit 
+\i (00:12:12) setwindow text
+\i (00:12:12) close 
+\i (00:12:13) setwindow form.status
+\i (00:12:13) FORM status drc_color 1 
+\i (00:12:13) setwindow pcb
+\i (00:12:13) reports drc 
+\i (00:12:14) reports "drc"
+\i (00:12:14) generaledit 
+\i (00:12:15) setwindow text
+\i (00:12:15) close 
+\i (00:12:16) setwindow form.status
+\i (00:12:16) FORM status refresh  
+\i (00:12:17) FORM status refresh  
+\i (00:12:17) FORM status refresh  
+\i (00:12:17) FORM status drc_update  
+\t (00:12:17) Running DRC, please wait...
+\t (00:12:18) Performing DRC...
+\t (00:12:18) Multithreaded DRC update (12 threads).
+\t (00:12:18) No DRC errors detected.
+\t (00:12:18) DRC done.
+\i (00:12:19) FORM status done  
+\i (00:12:22) setwindow pcb
+\i (00:12:22) artwork 
+\i (00:12:24) setwindow form.film_control
+\i (00:12:24) FORM film_control select_all  
+\i (00:12:25) FORM film_control create  
+\t (00:12:25) Checking db records
+\t (00:12:25)     checking for orphans...
+\t (00:12:25)     Checked 100 percent
+\t (00:12:25) Done dbdoctor.
+\t (00:12:25) Starting Create artwork films...
+\w (00:12:25) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:12:26) Artwork generated with warnings.
+\i (00:12:42) setwindow text
+\i (00:12:42) close 
+\i (00:12:43) setwindow form.film_control
+\i (00:12:43) FORM film_control ok  
+\i (00:12:43) setwindow pcb
+\i (00:12:43) generaledit 
+\i (00:12:48) ncdrill param 
+\i (00:12:48) generaledit 
+\i (00:12:55) setwindow form.nc_parameters
+\i (00:12:55) FORM nc_parameters cancel  
+\i (00:13:00) setwindow pcb
+\i (00:13:00) ncdrill param 
+\i (00:13:01) generaledit 
+\i (00:13:09) setwindow form.nc_parameters
+\i (00:13:09) FORM nc_parameters done  
+\i (00:13:12) setwindow pcb
+\i (00:13:12) nctape_full 
+\i (00:13:15) setwindow form.nc_drill
+\i (00:13:15) FORM nc_drill parameters  
+\i (00:13:16) setwindow form.nc_parameters
+\i (00:13:16) FORM nc_parameters cancel  
+\i (00:13:22) setwindow form.nc_drill
+\i (00:13:22) FORM nc_drill execute  
+\t (00:13:22) Starting NC Drill...
+\i (00:13:24) FORM nc_drill close  
+\i (00:13:24) setwindow pcb
+\i (00:13:24) generaledit 
+\i (00:13:27) artwork 
+\i (00:13:33) setwindow form.film_control
+\i (00:13:33) FORM film_control select_all  
+\i (00:13:38) FORM film_control general_parameters  
+\i (00:13:43) FORM film_control film_control  
+\i (00:13:44) FORM film_control create  
+\t (00:13:44) Checking db records
+\t (00:13:44)     checking for orphans...
+\t (00:13:44)     Checked 100 percent
+\t (00:13:44) Done dbdoctor.
+\t (00:13:44) Starting Create artwork films...
+\t (00:13:45) Plot generated.
+\i (00:13:48) FORM film_control ok  
+\i (00:13:48) setwindow pcb
+\i (00:13:48) generaledit 
+\i (00:17:02) xhilite 
+\i (00:17:02) xname_flush 
+\i (00:17:02) done 
+\i (00:17:02) generaledit 
+\i (00:17:06) exit 
+\e (00:17:06) Do you want to save the changes you made to E:/Cadence/SDR/board_r820t2/r820t2.brd?
+\i (00:17:07) fillin yes 
+\t (00:17:07)     Journal end - Mon Mar 23 00:56:43 2020

@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 00:42:39}
+{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 22:49:12}
 primitive 'CAPACITOR NON-POL_R0805_330PF';
   pin
     '1':
@@ -135,21 +135,6 @@ primitive 'CAPACITOR NON-POL_R0805_20PF';
     VALUE='20pF';
   end_body;
 end_primitive;
-primitive 'CAPACITOR NON-POL_R0805_DNP';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAPACITOR NON-POL';
-    JEDEC_TYPE='R0805';
-    VALUE='DNP';
-  end_body;
-end_primitive;
 primitive 'BAV99/SOT_SOT95P237X112-3N_BAV9';
   pin
     '3':
@@ -235,21 +220,6 @@ primitive 'INDUCTOR AUDIO_R0805_150NH';
     PART_NAME='INDUCTOR AUDIO';
     JEDEC_TYPE='R0805';
     VALUE='150nH';
-  end_body;
-end_primitive;
-primitive 'R_R0805_4.7K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='R0805';
-    VALUE='4.7K';
   end_body;
 end_primitive;
 primitive 'R_R0805_DNP';
@@ -402,7 +372,7 @@ primitive 'AMS1117_AMS1117_SOT223_AMS1117';
     VALUE='AMS1117';
   end_body;
 end_primitive;
-primitive 'TC-1T_TC-1T_TC-1T';
+primitive 'TC-1T_TC1-1T_TC-1T';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -422,7 +392,7 @@ primitive 'TC-1T_TC-1T_TC-1T';
   end_pin;
   body
     PART_NAME='TC-1T';
-    JEDEC_TYPE='TC-1T';
+    JEDEC_TYPE='TC1-1T';
     VALUE='TC-1T';
   end_body;
 end_primitive;
