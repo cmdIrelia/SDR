@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 22:54:46}
+{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 23:58:57}
 primitive 'CAPACITOR NON-POL_R0805_330PF';
   pin
     '1':
@@ -336,27 +336,6 @@ primitive 'R820T_R820T_R820T';
     VALUE='R820t';
   end_body;
 end_primitive;
-primitive 'AMS1117_AMS1117_SOT223_AMS1117';
-  pin
-    'GND':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'VOUT':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'VIN':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'OUT':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='AMS1117';
-    JEDEC_TYPE='AMS1117_SOT223';
-    VALUE='AMS1117';
-  end_body;
-end_primitive;
 primitive 'TC-1T_TC1-1T_TC-1T';
   pin
     '1':
@@ -379,6 +358,27 @@ primitive 'TC-1T_TC1-1T_TC-1T';
     PART_NAME='TC-1T';
     JEDEC_TYPE='TC1-1T';
     VALUE='TC-1T';
+  end_body;
+end_primitive;
+primitive 'AMS1117_AMS1117_SOT223_AMS1117';
+  pin
+    'GND':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'VOUT':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'VIN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'OUT':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='AMS1117';
+    JEDEC_TYPE='AMS1117_SOT223';
+    VALUE='AMS1117';
   end_body;
 end_primitive;
 primitive '5PB1102PGGI_5PB1102PGGI_5PB1102';
