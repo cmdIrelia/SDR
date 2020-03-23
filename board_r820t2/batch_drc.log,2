@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : r820t2.brd                                    )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Mon Mar 23 22:35:12 2020                      )
+(    Date/Time        : Tue Mar 24 00:39:54 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  1
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

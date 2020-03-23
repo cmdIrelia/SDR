@@ -1,0 +1,20 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Without Nets Report                                        )
+(                                                                     )
+(    Drawing          : r820t2.brd                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Mar 24 00:41:45 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total shapes not on a net: 1
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (-22.8346 23.0124)  Net: Dummy Net
+
+    To suppress in report attach OK_UNASSIGNED_SHAPE property to shape.

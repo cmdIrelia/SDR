@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : r820t2.brd                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Mar 24 00:24:13 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 5
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (0.5608 -18.1527)  Net: GND
+	Point on shape: (-2.1824 -14.3920)  Net: GND
+	Point on shape: (2.1208 13.7940)  Net: GND
+	Point on shape: (0.1208 17.1501)  Net: GND
+	Point on shape: (-3.1726 11.3942)  Net: GND

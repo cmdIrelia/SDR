@@ -204,7 +204,8 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "e:\cadence\sdr\schematic\sdrlib.olb")
       (Path "Outputs")
-      (Select "Design Resources" "e:\cadence\sdr\schematic\r820t2.dsn"))
+      (Select "Design Resources" "e:\cadence\sdr\schematic\r820t2.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -215,8 +216,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 78 1440 78 683")
-        (Scroll "364 382")
-        (Zoom "120")
+        (Scroll "732 1567")
+        (Zoom "240")
         (Occurrence "/"))
       (Path "E:\CADENCE\SDR\SCHEMATIC\R820T2.DSN")
       (Schematic "SCHEMATIC1")
