@@ -1,5 +1,5 @@
 DEVICE-TYPE           GERBER_RS274X
-OUTPUT-UNITS          INCHES
+OUTPUT-UNITS          MM
 FILM-SIZE             2400000 1600000
 FORMAT                2.5
 ABORT-ON-ERROR        NO

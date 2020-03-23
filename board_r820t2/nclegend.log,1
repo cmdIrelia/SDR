@@ -1,13 +1,17 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    DBDOCTOR                                                         )
+(    DRILL LEGEND                                                     )
 (                                                                     )
 (    Drawing          : r820t2.brd                                    )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Mon Mar 23 00:52:01 2020                      )
+(    Date/Time        : Mon Mar 23 00:51:11 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
+Begin processing of drill legend template file 'D:/Cadence/SPB_16.6/share/pcb/text/nclegend/default-mm.dlt' ...
+End of drill legend template file processing.
 
-0 warnings, 0 errors detected, 0 errors could be fixed.
+Begin processing drill holes.
+No errors detected in processing holes.
+End processing drill holes.

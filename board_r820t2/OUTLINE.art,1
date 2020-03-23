@@ -1,13 +1,11 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
 G04 Layout Name:  E:/Cadence/SDR/board_r820t2/r820t2.brd*
-G04 Film Name:    PASTEMASK_BOTTOM*
+G04 Film Name:    OUTLINE*
 G04 File Format:  Gerber RS274X*
 G04 File Origin:  Cadence Allegro 16.6-P004*
-G04 Origin Date:  Mon Mar 23 23:25:56 2020*
+G04 Origin Date:  Mon Mar 23 23:25:27 2020*
 G04 *
-G04 Layer:  VIA CLASS/PASTEMASK_BOTTOM*
-G04 Layer:  PIN/PASTEMASK_BOTTOM*
-G04 Layer:  PACKAGE GEOMETRY/PASTEMASK_BOTTOM*
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
 G04 *
 G04 Offset:    (0.0000 0.0000)*
 G04 Mirror:    No*
@@ -18,4 +16,14 @@ G04 UndefLineWidth:     0.6000*
 G04 ================== end FILE IDENTIFICATION RECORD ====================*
 %FSLAX25Y25*MOMM*%
 %IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.6*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X-2450000Y-2450000D02*
+Y2450000D01*
+X2450000D01*
+Y-2450000D01*
+X-2450000D01*
 M02*

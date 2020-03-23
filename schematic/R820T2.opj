@@ -215,8 +215,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 78 1440 78 683")
-        (Scroll "-207 137")
-        (Zoom "73")
+        (Scroll "364 382")
+        (Zoom "120")
         (Occurrence "/"))
       (Path "E:\CADENCE\SDR\SCHEMATIC\R820T2.DSN")
       (Schematic "SCHEMATIC1")

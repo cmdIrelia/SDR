@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 22:20:18 }
+{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 22:49:12 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='R820T2';
@@ -371,9 +371,9 @@ PART_NAME
  J3 'SMA_SMA_SMA':;
 
 SECTION_NUMBER 1
- '@R820T2.SCHEMATIC1(SCH_1):INS32183@SDRLIB.SMA.NORMAL(CHIPS)':
- C_PATH='@r820t2.schematic1(sch_1):ins32183@sdrlib.\sma.normal\(chips)',
- P_PATH='@r820t2.schematic1(sch_1):page1_ins32183@sdrlib.\sma.normal\(chips)',
+ '@R820T2.SCHEMATIC1(SCH_1):INS44867@SDRLIB.SMA.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins44867@sdrlib.\sma.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins44867@sdrlib.\sma.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
