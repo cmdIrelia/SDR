@@ -4,46 +4,123 @@
 (                                                                     )
 (    Drawing          : r820t2.brd                                    )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Mon Mar 23 00:52:01 2020                      )
+(    Date/Time        : Mon Mar 23 23:25:27 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
 
  ---- Photoplot outline rectangle not found ... using drawing extents
 
 
 
-
- Can't open parameter file ... using default values:
-     DEVICE-TYPE        GERBER6X00
-     G-CODES            NO
-     STATIONS-PER-WHEEL 24
-     FILM-SIZE          24000 16000
-     COORDINATES        ABSOLUTE
-     OUTPUT-UNITS       INCHES
-     FORMAT             5.3
-     ABORT-ON-ERROR     abort film & continue
-     SUPPRESS-LEAD-ZEROES     YES
-     SUPPRESS-TRAIL-ZEROES    NO
-     OPTIMIZE           YES
-     SUPPRESS-EQUAL     YES
-     SCALE              1.0
-
-
-
- WARNING: Generating english output data from a metric database
- may cause slight roundoff error of coordinates in output file.
-
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
 
 
 ================================================================
-     PROCESSING FILM < TOP >
-     TO FILE < E:/Cadence/SDR/board_r820t2/TOP.art > ...
+     PROCESSING FILM < OUTLINE >
+     TO FILE < E:/Cadence/SDR/board_r820t2/OUTLINE.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                0.6000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-24.5000 -24.5000)
+           ... using undefined line width of 0.6000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.60000                                  DARK 
+
+     OUTLINE created with warnings
+
+
+================================================================
+     PROCESSING FILM < DRILL >
+     TO FILE < E:/Cadence/SDR/board_r820t2/DRILL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.6000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.6000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.60000                                  DARK 
+
+     DRILL created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < E:/Cadence/SDR/board_r820t2/PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.6000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     PASTEMASK_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_TOP >
+     TO FILE < E:/Cadence/SDR/board_r820t2/PASTEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.6000
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -58,11 +135,144 @@
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00787                                  DARK 
-  CIRCLE     0.02400                                  DARK 
-  RECTANGLE  0.05709     x 0.04528      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.85000      90.000 NO     DARK 
+  RECTANGLE  1.36000     x 0.85000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.15000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.15000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.45000      90.000 NO     DARK 
+  RECTANGLE  2.15000     x 0.95000       0.000 NO     DARK 
+  RECTANGLE  3.25000     x 2.15000      90.000 NO     DARK 
+  OBLONG     1.30000     x 0.60000      90.000 NO     DARK 
+  PAD SHAPE  COMPLEX1-7X1-7A3            0.000 NO     DARK 
 
-     TOP created with warnings
+     PASTEMASK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < E:/Cadence/SDR/board_r820t2/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.6000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.11760                                  DARK 
+  CIRCLE     1.20000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  SQUARE     1.20000                     0.000 NO     DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  SQUARE     1.60000                    45.000 NO     DARK 
+
+     SOLDERMASK_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < E:/Cadence/SDR/board_r820t2/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.6000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.11760                                  DARK 
+  CIRCLE     1.20000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  SQUARE     1.20000                     0.000 NO     DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  SQUARE     1.60000                    45.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.85000      90.000 NO     DARK 
+  RECTANGLE  1.36000     x 0.85000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.15000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.15000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.45000      90.000 NO     DARK 
+  RECTANGLE  2.15000     x 0.95000       0.000 NO     DARK 
+  RECTANGLE  3.25000     x 2.15000      90.000 NO     DARK 
+  OBLONG     1.30000     x 0.60000      90.000 NO     DARK 
+  PAD SHAPE  COMPLEX2-7X2-7A7            0.000 NO     DARK 
+
+     SOLDERMASK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < E:/Cadence/SDR/board_r820t2/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.6000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     SILKSCREEN_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < E:/Cadence/SDR/board_r820t2/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.6000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+
+     SILKSCREEN_TOP created with warnings
 
 
 ================================================================
@@ -72,7 +282,7 @@
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                0.6000
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -87,15 +297,74 @@
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00787                                  DARK 
-  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.20000                                  DARK 
+  CIRCLE     1.50000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  SQUARE     1.20000                     0.000 NO     DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  SQUARE     1.60000                    45.000 NO     DARK 
 
      BOTTOM created with warnings
 
 
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < E:/Cadence/SDR/board_r820t2/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.6000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.20000                                  DARK 
+  CIRCLE     1.50000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  SQUARE     1.20000                     0.000 NO     DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  SQUARE     1.60000                    45.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.85000      90.000 NO     DARK 
+  RECTANGLE  1.36000     x 0.85000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.15000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.15000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.45000      90.000 NO     DARK 
+  RECTANGLE  2.15000     x 0.95000       0.000 NO     DARK 
+  RECTANGLE  3.25000     x 2.15000      90.000 NO     DARK 
+  OBLONG     1.30000     x 0.60000      90.000 NO     DARK 
+  PAD SHAPE  COMPLEX2-7X2-7A7            0.000 NO     DARK 
+
+     TOP created with warnings
+
+
 ------------------------------------------------------
  SUMMARY:
-        TOP created with warnings
+        OUTLINE created with warnings
+        DRILL created with warnings
+        PASTEMASK_BOTTOM created with warnings
+        PASTEMASK_TOP created with warnings
+        SOLDERMASK_BOTTOM created with warnings
+        SOLDERMASK_TOP created with warnings
+        SILKSCREEN_BOTTOM created with warnings
+        SILKSCREEN_TOP created with warnings
         BOTTOM created with warnings
+        TOP created with warnings
 
  ARTWORK had warnings

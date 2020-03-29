@@ -4,15 +4,10 @@
 (                                                                     )
 (    Drawing          : r820t2.brd                                    )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Mon Mar 23 23:25:27 2020                      )
+(    Date/Time        : Thu Mar 26 22:40:33 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
-
-
- ******************************************
- WARNING: DRC OUT OF DATE on this layout.
- ******************************************
 
  ---- Photoplot outline rectangle not found ... using drawing extents
 
@@ -110,7 +105,7 @@ Results from parameter file ...
 
 
   APERTURES USED:  NONE
-     PASTEMASK_BOTTOM created with warnings
+     PASTEMASK_BOTTOM created.
 
 
 ================================================================
@@ -138,6 +133,7 @@ Results from parameter file ...
   RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
   RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
   RECTANGLE  0.95000     x 0.85000      90.000 NO     DARK 
+  RECTANGLE  1.01600     x 0.76200      90.000 NO     DARK 
   RECTANGLE  1.36000     x 0.85000       0.000 NO     DARK 
   RECTANGLE  1.45000     x 1.15000       0.000 NO     DARK 
   RECTANGLE  1.45000     x 1.15000      90.000 NO     DARK 
@@ -146,8 +142,9 @@ Results from parameter file ...
   RECTANGLE  3.25000     x 2.15000      90.000 NO     DARK 
   OBLONG     1.30000     x 0.60000      90.000 NO     DARK 
   PAD SHAPE  COMPLEX1-7X1-7A3            0.000 NO     DARK 
+  PAD SHAPE  COMPLEX1-7X1-7A3          180.000 NO     DARK 
 
-     PASTEMASK_TOP created with warnings
+     PASTEMASK_TOP created.
 
 
 ================================================================
@@ -179,7 +176,7 @@ Results from parameter file ...
   SQUARE     1.60000                     0.000 NO     DARK 
   SQUARE     1.60000                    45.000 NO     DARK 
 
-     SOLDERMASK_BOTTOM created with warnings
+     SOLDERMASK_BOTTOM created.
 
 
 ================================================================
@@ -213,6 +210,7 @@ Results from parameter file ...
   RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
   RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
   RECTANGLE  0.95000     x 0.85000      90.000 NO     DARK 
+  RECTANGLE  1.16840     x 0.91440      90.000 NO     DARK 
   RECTANGLE  1.36000     x 0.85000       0.000 NO     DARK 
   RECTANGLE  1.45000     x 1.15000       0.000 NO     DARK 
   RECTANGLE  1.45000     x 1.15000      90.000 NO     DARK 
@@ -221,8 +219,9 @@ Results from parameter file ...
   RECTANGLE  3.25000     x 2.15000      90.000 NO     DARK 
   OBLONG     1.30000     x 0.60000      90.000 NO     DARK 
   PAD SHAPE  COMPLEX2-7X2-7A7            0.000 NO     DARK 
+  PAD SHAPE  COMPLEX2-7X2-7A7          180.000 NO     DARK 
 
-     SOLDERMASK_TOP created with warnings
+     SOLDERMASK_TOP created.
 
 
 ================================================================
@@ -244,7 +243,7 @@ Results from parameter file ...
 
 
   APERTURES USED:  NONE
-     SILKSCREEN_BOTTOM created with warnings
+     SILKSCREEN_BOTTOM created.
 
 
 ================================================================
@@ -263,6 +262,12 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: text composed 0 width line found at (-20.5606 1.3208)
+           ... using undefined line width of 0.6000
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.6000
+
 
 
   APERTURES USED:
@@ -271,6 +276,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.20000                                  DARK 
   CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
 
      SILKSCREEN_TOP created with warnings
 
@@ -297,15 +303,19 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
   CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.00000                                  DARK 
   CIRCLE     1.20000                                  DARK 
   CIRCLE     1.50000                                  DARK 
   CIRCLE     1.60000                                  DARK 
+  CIRCLE     2.00000                                  DARK 
   SQUARE     1.20000                     0.000 NO     DARK 
   SQUARE     1.60000                     0.000 NO     DARK 
   SQUARE     1.60000                    45.000 NO     DARK 
 
-     BOTTOM created with warnings
+     BOTTOM created.
 
 
 ================================================================
@@ -330,18 +340,22 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
   CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
   CIRCLE     0.60960                                  DARK 
   CIRCLE     1.00000                                  DARK 
   CIRCLE     1.20000                                  DARK 
   CIRCLE     1.50000                                  DARK 
   CIRCLE     1.60000                                  DARK 
+  CIRCLE     2.00000                                  DARK 
   SQUARE     1.20000                     0.000 NO     DARK 
   SQUARE     1.60000                     0.000 NO     DARK 
   SQUARE     1.60000                    45.000 NO     DARK 
   RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
   RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
   RECTANGLE  0.95000     x 0.85000      90.000 NO     DARK 
+  RECTANGLE  1.01600     x 0.76200      90.000 NO     DARK 
   RECTANGLE  1.36000     x 0.85000       0.000 NO     DARK 
   RECTANGLE  1.45000     x 1.15000       0.000 NO     DARK 
   RECTANGLE  1.45000     x 1.15000      90.000 NO     DARK 
@@ -350,21 +364,22 @@ Results from parameter file ...
   RECTANGLE  3.25000     x 2.15000      90.000 NO     DARK 
   OBLONG     1.30000     x 0.60000      90.000 NO     DARK 
   PAD SHAPE  COMPLEX2-7X2-7A7            0.000 NO     DARK 
+  PAD SHAPE  COMPLEX2-7X2-7A7          180.000 NO     DARK 
 
-     TOP created with warnings
+     TOP created.
 
 
 ------------------------------------------------------
  SUMMARY:
         OUTLINE created with warnings
         DRILL created with warnings
-        PASTEMASK_BOTTOM created with warnings
-        PASTEMASK_TOP created with warnings
-        SOLDERMASK_BOTTOM created with warnings
-        SOLDERMASK_TOP created with warnings
-        SILKSCREEN_BOTTOM created with warnings
+        PASTEMASK_BOTTOM created.
+        PASTEMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+        SOLDERMASK_TOP created.
+        SILKSCREEN_BOTTOM created.
         SILKSCREEN_TOP created with warnings
-        BOTTOM created with warnings
-        TOP created with warnings
+        BOTTOM created.
+        TOP created.
 
- ARTWORK had warnings
+ ARTWORK finished

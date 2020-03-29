@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Mar-24-2020 at 00:09:50 }
+{ Using PSTWRITER 16.6.0 d001Mar-26-2020 at 22:29:14 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='R820T2';
@@ -564,6 +564,16 @@ SECTION_NUMBER 1
  '@R820T2.SCHEMATIC1(SCH_1):INS51483@DISCRETE.R.NORMAL(CHIPS)':
  C_PATH='@r820t2.schematic1(sch_1):ins51483@discrete.\r.normal\(chips)',
  P_PATH='@r820t2.schematic1(sch_1):page1_ins51483@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'R_1CMX0_5CM_TEST_SYMBOL':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS52665@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins52665@discrete.\r.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins52665@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

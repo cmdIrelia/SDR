@@ -2,9 +2,9 @@
 (                                                                     )
 (    NC DRILL Log                                                     )
 (                                                                     )
-(    Drawing          : #Taaaaah09024.tmp                             )
+(    Drawing          : #Taaaaap09024.tmp                             )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Thu Mar 26 22:38:18 2020                      )
+(    Date/Time        : Thu Mar 26 23:00:10 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -44,9 +44,10 @@
 
            Size  Plating  Tool        + Tolerance  - Tolerance
 
-         0.3302  P        T01            0.000000     0.000000
-         0.7000  P        T02            0.000000     0.000000
-         1.0500  P        T03            0.000000     0.000000
+         0.2100  P        T01            0.000000     0.000000
+         0.3302  P        T02            0.000000     0.000000
+         0.7000  P        T03            0.000000     0.000000
+         1.0500  P        T04            0.000000     0.000000
 
 
  Drill files being output to directory 'E:/Cadence/SDR/board_r820t2' ...
@@ -58,11 +59,12 @@
 
      Tool  Num     Size      +/- Tolerance     Plating   Quantity
 
-     T01    1.  13.0000    0.0000/  0.0000      PLATED         16
-     T02    2.  27.5591    0.0000/  0.0000      PLATED          2
-     T03    3.  41.3386    0.0000/  0.0000      PLATED         28
+     T01    1.   8.2677    0.0000/  0.0000      PLATED        164
+     T02    2.  13.0000    0.0000/  0.0000      PLATED         16
+     T03    3.  27.5591    0.0000/  0.0000      PLATED          2
+     T04    4.  41.3386    0.0000/  0.0000      PLATED         28
 
-     ---- Total holes:                                         46
+     ---- Total holes:                                        210
 
-     ---- Total head travel:              1.60 feet (0.49 meters)
+     ---- Total head travel:              3.24 feet (0.99 meters)
 

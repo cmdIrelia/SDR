@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 23:18:51 }
+{ Using PSTWRITER 16.6.0 d001Mar-23-2020 at 23:58:57 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='R820T2';
@@ -168,12 +168,162 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ C50 'CAPACITOR NON-POL_R0805_330PF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50679@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50679@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50679@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C51 'CAPACITOR NON-POL_R0805_27PF/10':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50707@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50707@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50707@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C52 'CAPACITOR NON-POL_R0805_1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50747@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50747@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50747@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C53 'CAPACITOR NON-POL_R0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50779@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50779@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50779@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C54 'CAPACITOR NON-POL_R0805_20PF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50815@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50815@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50815@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C55 'CAPACITOR NON-POL_R0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50979@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50979@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50979@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C56 'CAPACITOR NON-POL_R0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51003@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51003@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51003@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C57 'CAPACITOR NON-POL_R0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51043@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51043@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51043@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C58 'CAPACITOR NON-POL_R0805_330NF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51071@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51071@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51071@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C59 'CAPACITOR NON-POL_R0805_6.8NF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51127@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51127@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51127@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  C6 'CAPACITOR NON-POL_R0805_0.1UF':;
 
 SECTION_NUMBER 1
  '@R820T2.SCHEMATIC1(SCH_1):INS2343@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
  C_PATH='@r820t2.schematic1(sch_1):ins2343@discrete.\capacitor non-pol.normal\(chips)',
  P_PATH='@r820t2.schematic1(sch_1):page1_ins2343@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C60 'CAPACITOR NON-POL_R0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51155@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51155@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51155@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C61 'CAPACITOR NON-POL_R0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51195@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51195@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51195@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C62 'CAPACITOR NON-POL_R0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51219@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51219@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51219@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C63 'CAPACITOR NON-POL_R0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51243@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51243@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51243@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C64 'CAPACITOR NON-POL_R0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51379@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51379@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51379@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -204,6 +354,16 @@ SECTION_NUMBER 1
  '@R820T2.SCHEMATIC1(SCH_1):INS21104@DISCRETE.BAV99/SOT.NORMAL(CHIPS)':
  C_PATH='@r820t2.schematic1(sch_1):ins21104@discrete.\bav99/sot.normal\(chips)',
  P_PATH='@r820t2.schematic1(sch_1):page1_ins21104@discrete.\bav99/sot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'BAV99/SOT_SOT95P237X112-3N_BAV9':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51539@DISCRETE.BAV99/SOT.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51539@discrete.\bav99/sot.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51539@discrete.\bav99/sot.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -248,6 +408,36 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ J7 'SMA_SMA_SMA':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51337@SDRLIB.SMA.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51337@sdrlib.\sma.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51337@sdrlib.\sma.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'SMA_SMA_SMA':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51505@SDRLIB.SMA.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51505@sdrlib.\sma.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51505@sdrlib.\sma.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'HEADER 2_HDRV2W64P254_1X2_508X2':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51581@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51581@connector.\header 2.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51581@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  L1 'INDUCTOR AUDIO_R0805_8.2NH':;
 
 SECTION_NUMBER 1
@@ -274,6 +464,36 @@ SECTION_NUMBER 1
  '@R820T2.SCHEMATIC1(SCH_1):INS3095@DISCRETE.INDUCTOR AUDIO.NORMAL(CHIPS)':
  C_PATH='@r820t2.schematic1(sch_1):ins3095@discrete.\inductor audio.normal\(chips)',
  P_PATH='@r820t2.schematic1(sch_1):page1_ins3095@discrete.\inductor audio.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L6 'INDUCTOR AUDIO_R0805_8.2NH':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50653@DISCRETE.INDUCTOR AUDIO.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50653@discrete.\inductor audio.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50653@discrete.\inductor audio.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L7 'INDUCTOR AUDIO_R0805_150NH':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50875@DISCRETE.INDUCTOR AUDIO.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50875@discrete.\inductor audio.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50875@discrete.\inductor audio.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L8 'INDUCTOR AUDIO_R0805_150NH':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50903@DISCRETE.INDUCTOR AUDIO.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50903@discrete.\inductor audio.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50903@discrete.\inductor audio.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -308,6 +528,46 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ R22 'R_R0805_1.8K':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51099@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51099@discrete.\r.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51099@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'R_R0805_220':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51275@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51275@discrete.\r.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51275@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'R_R0805_220':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51295@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51295@discrete.\r.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51295@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_R0805_1.8K':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51483@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51483@discrete.\r.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51483@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  R4 'R_R0805_220':;
 
 SECTION_NUMBER 1
@@ -324,6 +584,26 @@ SECTION_NUMBER 1
  '@R820T2.SCHEMATIC1(SCH_1):INS5624@DISCRETE.R.NORMAL(CHIPS)':
  C_PATH='@r820t2.schematic1(sch_1):ins5624@discrete.\r.normal\(chips)',
  P_PATH='@r820t2.schematic1(sch_1):page1_ins5624@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U10 'R820T_R820T_R820T':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS50559@SDRLIB.R820T.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins50559@sdrlib.\r820t.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins50559@sdrlib.\r820t.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U11 'TC-1T_TC1-1T_TC-1T':;
+
+SECTION_NUMBER 1
+ '@R820T2.SCHEMATIC1(SCH_1):INS51311@SDRLIB.TC-1T.NORMAL(CHIPS)':
+ C_PATH='@r820t2.schematic1(sch_1):ins51311@sdrlib.\tc-1t.normal\(chips)',
+ P_PATH='@r820t2.schematic1(sch_1):page1_ins51311@sdrlib.\tc-1t.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

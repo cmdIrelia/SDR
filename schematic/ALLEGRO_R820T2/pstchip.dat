@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Mar-24-2020 at 00:09:50}
+{ Using PSTWRITER 16.6.0 d001Mar-26-2020 at 22:29:14}
 primitive 'CAPACITOR NON-POL_R0805_330PF';
   pin
     '1':
@@ -250,6 +250,21 @@ primitive 'R_R0805_220';
     PART_NAME='R';
     JEDEC_TYPE='R0805';
     VALUE='220';
+  end_body;
+end_primitive;
+primitive 'R_1CMX0_5CM_TEST_SYMBOL';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='1cmx0_5cm';
+    VALUE='TEST_SYMBOL';
   end_body;
 end_primitive;
 primitive 'R820T_R820T_R820T';

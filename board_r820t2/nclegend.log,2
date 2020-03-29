@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : r820t2.brd                                    )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Thu Mar 26 22:38:00 2020                      )
+(    Date/Time        : Thu Mar 26 22:58:26 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -13,6 +13,6 @@ Begin processing of drill legend template file 'D:/Cadence/SPB_16.6/share/pcb/te
 End of drill legend template file processing.
 
 Begin processing drill holes.
+Warning : Hole 1.0500-0.0000-C-P-0.0000-0.0000 uses multiple drill figures.
 Warning : Hole 0.7000-0.0000-C-P-0.0000-0.0000 uses multiple drill figures.
 End processing drill holes.
-Drill Legend command cancelled.

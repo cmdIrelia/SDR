@@ -2,9 +2,9 @@
 (                                                                     )
 (    NC DRILL Log                                                     )
 (                                                                     )
-(    Drawing          : #Taaaaaq06660.tmp                             )
+(    Drawing          : #Taaaaan09024.tmp                             )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Mon Mar 23 00:51:06 2020                      )
+(    Date/Time        : Thu Mar 26 22:58:14 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -44,7 +44,10 @@
 
            Size  Plating  Tool        + Tolerance  - Tolerance
 
-         0.3302  P        T01            0.000000     0.000000
+         0.2100  P        T01            0.000000     0.000000
+         0.3302  P        T02            0.000000     0.000000
+         0.7000  P        T03            0.000000     0.000000
+         1.0500  P        T04            0.000000     0.000000
 
 
  Drill files being output to directory 'E:/Cadence/SDR/board_r820t2' ...
@@ -56,9 +59,12 @@
 
      Tool  Num     Size      +/- Tolerance     Plating   Quantity
 
-     T01    1.  13.0000    0.0000/  0.0000      PLATED          2
+     T01    1.   8.2677    0.0000/  0.0000      PLATED        155
+     T02    2.  13.0000    0.0000/  0.0000      PLATED         16
+     T03    3.  27.5591    0.0000/  0.0000      PLATED          2
+     T04    4.  41.3386    0.0000/  0.0000      PLATED         28
 
-     ---- Total holes:                                          2
+     ---- Total holes:                                        201
 
-     ---- Total head travel:              0.01 feet (0.00 meters)
+     ---- Total head travel:              2.81 feet (0.86 meters)
 
